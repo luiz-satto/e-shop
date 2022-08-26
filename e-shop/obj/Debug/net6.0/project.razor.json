@@ -12,35 +12,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 52184275,
+        "HashCode": -2084838124,
         "Kind": "Components.Component",
-        "Name": "e_shop.Pages.Counter",
+        "Name": "e_shop.Pages.Index",
         "AssemblyName": "e-shop",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "e_shop.Pages.Counter"
+          "Common.TypeName": "e_shop.Pages.Index"
         }
       },
       {
-        "HashCode": 2061731241,
+        "HashCode": -313976722,
         "Kind": "Components.Component",
-        "Name": "e_shop.Pages.Counter",
+        "Name": "e_shop.Pages.Index",
         "AssemblyName": "e-shop",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "e_shop.Pages.Counter"
+            "TagName": "e_shop.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "e_shop.Pages.Counter",
+          "Common.TypeName": "e_shop.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -78,121 +78,121 @@
         }
       },
       {
-        "HashCode": -2084838124,
+        "HashCode": 52184275,
         "Kind": "Components.Component",
-        "Name": "e_shop.Pages.Index",
+        "Name": "e_shop.Pages.Counter",
         "AssemblyName": "e-shop",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "e_shop.Pages.Index"
+          "Common.TypeName": "e_shop.Pages.Counter"
         }
       },
       {
-        "HashCode": -313976722,
+        "HashCode": 2061731241,
         "Kind": "Components.Component",
-        "Name": "e_shop.Pages.Index",
+        "Name": "e_shop.Pages.Counter",
         "AssemblyName": "e-shop",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "e_shop.Pages.Index"
+            "TagName": "e_shop.Pages.Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "e_shop.Pages.Index",
+          "Common.TypeName": "e_shop.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 1101906956,
+        "HashCode": 924521441,
         "Kind": "Components.Component",
-        "Name": "e_shop.App",
+        "Name": "e_shop.Pages.SearchProductsComponent",
         "AssemblyName": "e-shop",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "SearchProductsComponent"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "e_shop.App"
+          "Common.TypeName": "e_shop.Pages.SearchProductsComponent"
         }
       },
       {
-        "HashCode": -856418369,
+        "HashCode": 1564244486,
         "Kind": "Components.Component",
-        "Name": "e_shop.App",
+        "Name": "e_shop.Pages.SearchProductsComponent",
         "AssemblyName": "e-shop",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "e_shop.App"
+            "TagName": "e_shop.Pages.SearchProductsComponent"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "e_shop.App",
+          "Common.TypeName": "e_shop.Pages.SearchProductsComponent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -247755582,
+        "HashCode": 1603079038,
         "Kind": "Components.Component",
-        "Name": "e_shop.Shared.SurveyPrompt",
+        "Name": "e_shop.Pages.ViewProductComponent",
         "AssemblyName": "e-shop",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
+            "TagName": "ViewProductComponent"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
+            "Name": "Id",
+            "TypeName": "System.Int32",
             "Metadata": {
-              "Common.PropertyName": "Title"
+              "Common.PropertyName": "Id"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "e_shop.Shared.SurveyPrompt"
+          "Common.TypeName": "e_shop.Pages.ViewProductComponent"
         }
       },
       {
-        "HashCode": 652281759,
+        "HashCode": -245612815,
         "Kind": "Components.Component",
-        "Name": "e_shop.Shared.SurveyPrompt",
+        "Name": "e_shop.Pages.ViewProductComponent",
         "AssemblyName": "e-shop",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "e_shop.Shared.SurveyPrompt"
+            "TagName": "e_shop.Pages.ViewProductComponent"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
+            "Name": "Id",
+            "TypeName": "System.Int32",
             "Metadata": {
-              "Common.PropertyName": "Title"
+              "Common.PropertyName": "Id"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "e_shop.Shared.SurveyPrompt",
+          "Common.TypeName": "e_shop.Pages.ViewProductComponent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -293,6 +293,59 @@
         }
       },
       {
+        "HashCode": -247755582,
+        "Kind": "Components.Component",
+        "Name": "e_shop.Shared.SurveyPrompt",
+        "AssemblyName": "e-shop",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "e_shop.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 652281759,
+        "Kind": "Components.Component",
+        "Name": "e_shop.Shared.SurveyPrompt",
+        "AssemblyName": "e-shop",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "e_shop.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "e_shop.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1001130291,
         "Kind": "Components.Component",
         "Name": "e_shop.Shared.NavMenu",
@@ -322,6 +375,147 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "e_shop.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1101906956,
+        "Kind": "Components.Component",
+        "Name": "e_shop.App",
+        "AssemblyName": "e-shop",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "e_shop.App"
+        }
+      },
+      {
+        "HashCode": -856418369,
+        "Kind": "Components.Component",
+        "Name": "e_shop.App",
+        "AssemblyName": "e-shop",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "e_shop.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "e_shop.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 269720216,
+        "Kind": "Components.Component",
+        "Name": "e_shop.Controls.SearchBarComponent",
+        "AssemblyName": "e-shop",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SearchBarComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "OnSearch",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.String>",
+            "Metadata": {
+              "Common.PropertyName": "OnSearch",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "e_shop.Controls.SearchBarComponent"
+        }
+      },
+      {
+        "HashCode": 1923022944,
+        "Kind": "Components.Component",
+        "Name": "e_shop.Controls.SearchBarComponent",
+        "AssemblyName": "e-shop",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "e_shop.Controls.SearchBarComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "OnSearch",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.String>",
+            "Metadata": {
+              "Common.PropertyName": "OnSearch",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "e_shop.Controls.SearchBarComponent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1165056189,
+        "Kind": "Components.Component",
+        "Name": "e_shop.Controls.ProductItemComponent",
+        "AssemblyName": "e-shop",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProductItemComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Product",
+            "TypeName": "e_shop.Core.Models.Product",
+            "Metadata": {
+              "Common.PropertyName": "Product"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "e_shop.Controls.ProductItemComponent"
+        }
+      },
+      {
+        "HashCode": 525092132,
+        "Kind": "Components.Component",
+        "Name": "e_shop.Controls.ProductItemComponent",
+        "AssemblyName": "e-shop",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "e_shop.Controls.ProductItemComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Product",
+            "TypeName": "e_shop.Core.Models.Product",
+            "Metadata": {
+              "Common.PropertyName": "Product"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "e_shop.Controls.ProductItemComponent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16617,6 +16811,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "/home/lsatto/projects/blazor/e-shop/e-shop/Controls/ProductItemComponent.razor",
+      "TargetPath": "Controls\\ProductItemComponent.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/home/lsatto/projects/blazor/e-shop/e-shop/Pages/Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
@@ -16662,8 +16861,23 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "/home/lsatto/projects/blazor/e-shop/e-shop/Pages/ViewProductComponent.razor",
+      "TargetPath": "Pages\\ViewProductComponent.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/home/lsatto/projects/blazor/e-shop/e-shop/Pages/Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/lsatto/projects/blazor/e-shop/e-shop/Controls/SearchBarComponent.razor",
+      "TargetPath": "Controls\\SearchBarComponent.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/lsatto/projects/blazor/e-shop/e-shop/Pages/SearchProductsComponent.razor",
+      "TargetPath": "Pages\\SearchProductsComponent.razor",
       "FileKind": "component"
     }
   ],

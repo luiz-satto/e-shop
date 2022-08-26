@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "e-shop.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "e-shop.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/e-shop.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/e-shop.Application.dll": {}
+        }
+      },
+      "e-shop.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/e-shop.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/e-shop.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "e-shop.Application/1.0.0": {
+      "type": "project",
+      "path": "../e-shop.Application/e-shop.Application.csproj",
+      "msbuildProject": "../e-shop.Application/e-shop.Application.csproj"
+    },
+    "e-shop.Core/1.0.0": {
+      "type": "project",
+      "path": "../e-shop.Core/e-shop.Core.csproj",
+      "msbuildProject": "../e-shop.Core/e-shop.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "e-shop.Application >= 1.0.0",
+      "e-shop.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/lsatto/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/lsatto/projects/blazor/e-shop/e-shop.Data/e-shop.Data.csproj",
+      "projectName": "e-shop.Data",
+      "projectPath": "/home/lsatto/projects/blazor/e-shop/e-shop.Data/e-shop.Data.csproj",
+      "packagesPath": "/home/lsatto/.nuget/packages/",
+      "outputPath": "/home/lsatto/projects/blazor/e-shop/e-shop.Data/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/lsatto/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/home/lsatto/projects/blazor/e-shop/e-shop.Application/e-shop.Application.csproj": {
+              "projectPath": "/home/lsatto/projects/blazor/e-shop/e-shop.Application/e-shop.Application.csproj"
+            },
+            "/home/lsatto/projects/blazor/e-shop/e-shop.Core/e-shop.Core.csproj": {
+              "projectPath": "/home/lsatto/projects/blazor/e-shop/e-shop.Core/e-shop.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

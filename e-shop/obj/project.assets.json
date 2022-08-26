@@ -1,11 +1,69 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "e-shop.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "e-shop.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/e-shop.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/e-shop.Application.dll": {}
+        }
+      },
+      "e-shop.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/e-shop.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/e-shop.Core.dll": {}
+        }
+      },
+      "e-shop.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "e-shop.Application": "1.0.0",
+          "e-shop.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/e-shop.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/e-shop.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "e-shop.Application/1.0.0": {
+      "type": "project",
+      "path": "../e-shop.Application/e-shop.Application.csproj",
+      "msbuildProject": "../e-shop.Application/e-shop.Application.csproj"
+    },
+    "e-shop.Core/1.0.0": {
+      "type": "project",
+      "path": "../e-shop.Core/e-shop.Core.csproj",
+      "msbuildProject": "../e-shop.Core/e-shop.Core.csproj"
+    },
+    "e-shop.Data/1.0.0": {
+      "type": "project",
+      "path": "../e-shop.Data/e-shop.Data.csproj",
+      "msbuildProject": "../e-shop.Data/e-shop.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "e-shop.Application >= 1.0.0",
+      "e-shop.Core >= 1.0.0",
+      "e-shop.Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/lsatto/.nuget/packages/": {}
@@ -31,7 +89,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/lsatto/projects/blazor/e-shop/e-shop.Application/e-shop.Application.csproj": {
+              "projectPath": "/home/lsatto/projects/blazor/e-shop/e-shop.Application/e-shop.Application.csproj"
+            },
+            "/home/lsatto/projects/blazor/e-shop/e-shop.Core/e-shop.Core.csproj": {
+              "projectPath": "/home/lsatto/projects/blazor/e-shop/e-shop.Core/e-shop.Core.csproj"
+            },
+            "/home/lsatto/projects/blazor/e-shop/e-shop.Data/e-shop.Data.csproj": {
+              "projectPath": "/home/lsatto/projects/blazor/e-shop/e-shop.Data/e-shop.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

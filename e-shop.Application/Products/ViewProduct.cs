@@ -1,16 +1,20 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using e_shop.Application.Interfaces;
+using e_shop.Application.Interfaces.DataStore;
 using e_shop.Core.Models;
 
 namespace e_shop.Application.Search
 {
-    public class ViewProduct
+    public class ViewProduct : IViewProduct
     {
-        public Product Execute(string filter)
+        private readonly IProductRepository productRepository;
+        public ViewProduct(IProductRepository productRepository)
         {
-            return null;
+            this.productRepository = productRepository;
+        }
+
+        public Product Execute(int id)
+        {
+            return productRepository.GetProduct(id);
         }
     }
 }

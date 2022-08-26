@@ -1,0 +1,17 @@
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/bin/Debug/net6.0/e-shop.Data.deps.json
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/bin/Debug/net6.0/e-shop.Data.dll
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/bin/Debug/net6.0/e-shop.Data.pdb
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/bin/Debug/net6.0/e-shop.Application.dll
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/bin/Debug/net6.0/e-shop.Core.dll
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/bin/Debug/net6.0/e-shop.Application.pdb
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/bin/Debug/net6.0/e-shop.Core.pdb
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/obj/Debug/net6.0/e-shop.Data.csproj.AssemblyReference.cache
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/obj/Debug/net6.0/e-shop.Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/obj/Debug/net6.0/e-shop.Data.AssemblyInfoInputs.cache
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/obj/Debug/net6.0/e-shop.Data.AssemblyInfo.cs
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/obj/Debug/net6.0/e-shop.Data.csproj.CoreCompileInputs.cache
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/obj/Debug/net6.0/e-shop.Data.csproj.CopyComplete
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/obj/Debug/net6.0/e-shop.Data.dll
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/obj/Debug/net6.0/refint/e-shop.Data.dll
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/obj/Debug/net6.0/e-shop.Data.pdb
+/home/lsatto/projects/blazor/e-shop/e-shop.Data/obj/Debug/net6.0/ref/e-shop.Data.dll

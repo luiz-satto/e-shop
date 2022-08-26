@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using e_shop.Data;
+using e_shop.Application.Interfaces.DataStore;
+using e_shop.Application.Interfaces;
+using e_shop.Application.Search;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +11,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddTransient<IProductRepository, ProductRepository>();
+builder.Services.AddTransient<ISearchProduct, SearchProduct>();
+builder.Services.AddTransient<IViewProduct, ViewProduct>();
 
 var app = builder.Build();
 
@@ -20,12 +26,8 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
-
 app.Run();

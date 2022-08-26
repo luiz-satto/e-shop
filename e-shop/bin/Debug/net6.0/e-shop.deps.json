@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "e-shop/1.0.0": {
+        "dependencies": {
+          "e-shop.Application": "1.0.0",
+          "e-shop.Core": "1.0.0",
+          "e-shop.Data": "1.0.0"
+        },
+        "runtime": {
+          "e-shop.dll": {}
+        }
+      },
+      "e-shop.Application/1.0.0": {
+        "dependencies": {
+          "e-shop.Core": "1.0.0"
+        },
+        "runtime": {
+          "e-shop.Application.dll": {}
+        }
+      },
+      "e-shop.Core/1.0.0": {
+        "runtime": {
+          "e-shop.Core.dll": {}
+        }
+      },
+      "e-shop.Data/1.0.0": {
+        "dependencies": {
+          "e-shop.Application": "1.0.0",
+          "e-shop.Core": "1.0.0"
+        },
+        "runtime": {
+          "e-shop.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "e-shop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "e-shop.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "e-shop.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "e-shop.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
